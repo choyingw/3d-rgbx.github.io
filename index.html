@@ -82,6 +82,9 @@
           border: 1px solid #ccc;
           padding: 4px;
         }
+                .cvpr-highlight {
+                        color: #c00; /* red highlight for CVPR text */
+                }
       </style>
 
     <meta name="description"
@@ -109,14 +112,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
 
-    
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script type="text/javascript" id="MathJax-script" async
-        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-    </script>
-
-    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
-    <script type="text/javascript">google.load("jquery", "1.3.2");</script>
     <script>
         MathJax = {
         tex: {
@@ -145,7 +140,6 @@
         }
         };
     </script>  
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 
@@ -204,7 +198,7 @@
                 No Calibration, No Depth, No Problem: Cross-Sensor View Synthesis with 3D Consistency  </br>
                 <!-- 3D Gaussian Exact and Efficient Rendering -->
                 <small>
-                    <strong>CVPR 2026</strong>
+                    <strong class="cvpr-highlight">CVPR 2026 <b>Highlight</b></strong>
                 </small>
             </h2>
         </div>
@@ -250,9 +244,9 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="https://github.com/choyingw/3D-RGBX">
                         <image src="works/github_pad.png" height="60px">
-                            <h4><strong>Code</strong><br><small>(under approval)</small></h4>
+                            <h4><strong>Code</strong></h4>
                         </a>
                     </li>
                 </ul>
